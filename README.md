@@ -1,4 +1,3 @@
-````markdown
 # Course User Export Plugin for Moodle
 
 ## Overview
@@ -29,7 +28,11 @@ The **Course User Export Plugin** allows administrators to export courses and th
 
 ```bash
 
-git clone https://github.com/your-repo/course_user_export.git
+
+
+git  clone  https://github.com/your-repo/course_user_export.git
+
+
 
 ```
 
@@ -39,7 +42,11 @@ git clone https://github.com/your-repo/course_user_export.git
 
 ```bash
 
-cp -r course_user_export /path/to/moodle/local/
+
+
+cp  -r  course_user_export  /path/to/moodle/local/
+
+
 
 ```
 
@@ -74,11 +81,16 @@ cp -r course_user_export /path/to/moodle/local/
 ## Usage
 
 To use the web service, send a request to the following endpoint:
-````
+
+```
+
+
 
 POST /webservice/rest/server.php
 
-````
+
+
+```
 
 ### Parameters
 
@@ -92,11 +104,17 @@ POST /webservice/rest/server.php
 
 ```bash
 
+
+
 curl -X POST 'https://your-moodle-site/webservice/rest/server.php'
+
+
 
 --data 'wstoken=your_token&wsfunction=local_course_user_export_get_courses_and_users&moodlewsrestformat=json'
 
-````
+
+
+```
 
 ### Example Response
 
@@ -144,25 +162,4 @@ This plugin is licensed under the [GNU General Public License](http://www.gnu.or
 
 ## Author
 
-- **Your Name**
-
-- **Your Email**
-
-```
-
-### Instructions for Customization
-
-- **Repository Link**: Replace `link-to-your-repository` with the actual URL of your plugin's repository.
-
-- **GitHub Clone URL**: Ensure the URL in the clone command is correct.
-
-- **Token Example**: Update `your_token` with a sample token for testing.
-
-- **Author Section**: Fill in your name and email address.
-
-### Saving the Document
-
-- Save the content above as `README.md` in your plugin's root directory.
-
-Let me know if you need any further modifications or additions!
-```
+- **Ahmad Dayeh**
